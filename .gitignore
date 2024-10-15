@@ -1,0 +1,30 @@
+# Clojure specific
+target/
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tgz
+*.log
+
+# Leiningen specific
+project.clj
+profiles.clj
+# Ignore the local repository
+~/.m2/repository/
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+
+# Clojure REPL files
+.repl_history
+
+# OS generated files
+.DS_Store
+Thumbs.db
